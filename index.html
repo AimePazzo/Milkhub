@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    
+    <title>MiLKHUB</title>
+</head>
+<body>
+    
+    <header class="hero">
+        <a href="#" class="logo">MiLK<span>hub</span></a>
+            <nav  class="nav">
+                <a href="#Home">Home</a>
+                <a href="#Product">Product</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <div class="icon">
+                <div class="fas fa-bars" id="menu-btn"></div>
+                <div class="fas fa-search" id="search-btn"></div>
+                <div class="fas fa-user" id="login-btn"></div>
+            </div>
+
+        <form action="" class="search-form" >
+            <input type="search" id="search-box" class="box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+       
+
+        <form action="" class="login-form" id="form1">
+            <h3>login now</h3>
+            <input type="text" placeholder="User Name" class="box" id="text">
+            <input type="password" placeholder="Your password" class="box" id="password">
+            <p>forget your password <a href="#">click here</a></p>
+        <p>don't have an account  <a href="#">create now</a></p>
+            <input type="submit" value="login now" class="btn" >
+        </form>
+    </header>
+
+
+
+    <section class="home" id="Home">
+
+            <div class="content">
+                <h1>fresh <span>Milk product for everyWhere you are </span></h1>
+                <!-- <p>we provide MilkHub for everyone around the country</p> -->
+                <a href="#Product" class="btn btn1"> Shop now</a>
+            </div>
+
+    </section>
+
+
+    <section class="features" id="Product">
+        <h3>Every Product</h3>
+        <div class="pro-menu">
+            <a href="#">Favorites</a>
+            <a href="#">Top Rated</a>
+            <a href="#">Near Me</a>
+
+        </div>
+        <div class="cards-box" id="bars">
+            <!--  -->
+        </div> 
+        
+        <form action="" class="msg-form" id="msg">
+            <p>Item deleted!!!</p>
+         </form>
+
+    <div class="admin">
+        
+        <form action="" class="login-form login-form2 " id="form2" data-name="login-form2">
+            <h2>Admin panel </h2>
+            <h3>Add New Item</h3>
+            <i class="fas fa-times"></i>
+            <!-- <input type="file" name="" id="card-image" accept="image/*" class="box no" onchange="loadFile(e)"> -->
+            <input type="text" placeholder="Product Name" class="box" id="productName">
+            <input type="text" placeholder="Milk-supplier" class="box" id="milkSupplier">
+            <input type="text" placeholder="Price" class="box" id="price">
+            <input type="submit" value="Add" class="btn" id="add">
+        </form>
+        </div>
+</div>
+</section>
+    <script src="index.js"></script>
+</body>
+</html>
