@@ -61,12 +61,10 @@ let fromValidation = () =>{
             milkSupplier.style.borderColor='red';
             productName.style.borderColor='red';
             price.style.borderColor='red';
-            cardImage.style.borderColor='red'
         }else{
             productName.style.borderColor='green';
             price.style.borderColor ='green';
             milkSupplier.style.borderColor='green';
-            cardImage.style.borderColor='green'
             acceptData();
         }
     };
