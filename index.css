@@ -212,8 +212,8 @@ section{
     background-image: url("./img/Webslide_Inyange-1.jpg") ;
     justify-content: center;
     background-position: center;
-    /* background-size: cover; */
-    background-size: contain;
+    background-size: cover;
+/*     background-size: contain; */
     background-repeat: no-repeat;
     padding-top: 9rem;
     padding-bottom: 10rem;
